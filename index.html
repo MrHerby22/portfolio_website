@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hello, I'm <span>Samip </span><br>Chaulagain from Nepal.</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-------- about----->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"></div>
+                <img src="images/user.jpg">
+               
+                
+            </div>
+            <div class="about-col-2"></div>
+            <h1 class="sub-title">About Me</h1>
+            <p>I am passionate about creating beautiful, intuitive, and user-friendly interfaces that elevate the user experience. With a strong background in HTML, CSS, and JavaScript, I am constantly exploring new frontend frameworks and libraries to stay on top of the latest trends and best practices in the industry. I believe in a collaborative approach to development, working closely with clients and stakeholders to ensure that their vision is brought to life in a way that exceeds their expectations. Whether it's a website, web application, or mobile app, I am committed to delivering high-quality, performant, and accessible solutions that engage and delight users.</p>
+        
+             <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                
+             </div>
+             <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI?UX</span><br>Designing Web Pages</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>App Development</span><br>Building Android/ios apps</li>
+                </ul>
+             </div>
+        </div>
+   
+    </div>
+
+</body>
+</html>
